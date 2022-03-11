@@ -51,11 +51,12 @@ public class Main {
         Ponchik.setPlace(bench);
         System.out.println("Ponchik managed to find place on the bench");
         Ponchik.sitComfort( "sit comfortable on ", Ponchik);
+        Ponchik.listen("started listen to people in train");
         }
         else {
         System.out.println("Ponchik didn't find place");
         }
 
-        Ponchik.listen("started listen to people in train");
+        
     }
 }
